@@ -1,1 +1,1 @@
-Android java.util.logger handler.
+Android java.util.logging handler.
