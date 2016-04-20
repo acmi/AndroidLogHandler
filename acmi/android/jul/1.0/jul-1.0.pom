@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>acmi.android</groupId>
+  <artifactId>jul</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <name>AndroidLogHandler</name>
+  <description>Android java.util.logging handler.</description>
+  <url>https://github.com/acmi/AndroidLogHandler</url>
+  <licenses>
+    <license>
+      <name>WTFPL</name>
+      <url>http://www.wtfpl.net/txt/copying/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>acmi</id>
+      <name>Aleksei Sazonov</name>
+      <email>acmi831@gmail.com</email>
+    </developer>
+  </developers>
+</project>
