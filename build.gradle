@@ -21,6 +21,15 @@ android {
     buildToolsVersion "23.0.3"
 }
 
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
+
 
 apply plugin: 'com.github.dcendents.android-maven'
 
